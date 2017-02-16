@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationTest.UICarouselPage">
+
+  <CarouselPage.Children>
+    <ContentPage BackgroundColor="Aqua" Title="Pagina 1" Icon="">
+      <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+          <Entry Placeholder="Teste 1" TextColor="Red"></Entry>
+          <Button Text="Salvar 1" TextColor="Red"></Button>
+        </StackLayout>
+      </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage BackgroundColor="Blue" Title="Pagina 2" Icon="">
+      <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="20">
+          <Entry Placeholder="Teste 2" TextColor="Green"></Entry>
+          <Button Text="Salvar 2" TextColor="Green"></Button>
+        </StackLayout>
+      </ContentPage.Content>
+    </ContentPage>
+  </CarouselPage.Children>
+  
+
+</CarouselPage>
